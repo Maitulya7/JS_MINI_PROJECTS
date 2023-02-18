@@ -1,0 +1,37 @@
+.keys{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    flex-direction: row;
+    margin-top: 200px;
+    background-color: #222222;
+    
+    
+}
+
+
+.playing{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px yellow;
+    border: 5px solid yellow;
+}
+
+
+.key{
+   margin: auto auto;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color:whitesmoke;
+    color:#222222;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.07s;
+    font-weight: bolder;
+    
+}
+span{
+    font-size: 20px;
+}

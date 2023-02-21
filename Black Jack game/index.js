@@ -100,8 +100,6 @@ function randomHands (){
 
 }
 
-
-
 if(randomHands() === 1 ){
     console.log("rock")
 }else if (randomHands() === 2){

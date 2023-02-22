@@ -10,3 +10,6 @@ Day-3 : Color Flipper using HTML , CSS & Vanilla Javascipt .  [Color-Flipper](ht
 
 
 Day-4 : Black Jack Game using HTML , CSS & Vanilla Javascipt .  [Black-Jack](https://black-jack-game-using-vanilla-js.netlify.app/)
+
+
+Day-5 : Image Resizer using HTML , CSS & Vanilla Javascipt .  [https://image-resizer-using-javascrip.netlify.app/)

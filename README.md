@@ -15,4 +15,4 @@ Day-4 : Black Jack Game using HTML , CSS & Vanilla Javascipt .  [Black-Jack](htt
 Day-5 : Image Resizer using HTML , CSS & Vanilla Javascipt . [Image Resizer](https://image-resizer-using-javascrip.netlify.app/)
 
 
-Day-6 : Dynamic Reviews using HTML , CSS & Vanilla Javascipt . [Dynamic Reviews](https://marvelous-jelly-68370d.netlify.app/
+Day-6 : Dynamic Reviews using HTML , CSS & Vanilla Javascipt . [Dynamic Reviews](https://marvelous-jelly-68370d.netlify.app/)

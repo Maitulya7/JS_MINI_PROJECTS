@@ -16,3 +16,6 @@ Day-5 : Image Resizer using HTML , CSS & Vanilla Javascipt . [Image Resizer](htt
 
 
 Day-6 : Dynamic Reviews using HTML , CSS & Vanilla Javascipt . [Dynamic Reviews](https://marvelous-jelly-68370d.netlify.app/)
+
+
+Day-7 : Navbar  using HTML , CSS & Vanilla Javascipt . [Navbar](https://starlit-kataifi-afabc3.netlify.app/)

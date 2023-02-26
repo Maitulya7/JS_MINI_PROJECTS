@@ -19,3 +19,9 @@ Day-6 : Dynamic Reviews using HTML , CSS & Vanilla Javascipt . [Dynamic Reviews]
 
 
 Day-7 : Navbar  using HTML , CSS & Vanilla Javascipt . [Navbar](https://starlit-kataifi-afabc3.netlify.app/)
+
+
+Day-8 : Counter  using HTML , CSS & Vanilla Javascipt . [Counter](https://jocular-strudel-28cd62.netlify.app/)
+
+
+Day-9 : Quote Generator  using HTML , CSS & Vanilla Javascipt . [Quote Generator](https://stirring-banoffee-8d5df2.netlify.app/)

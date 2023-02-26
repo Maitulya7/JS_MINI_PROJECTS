@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color: white;
+    width: 50%;
+    padding-bottom: 50px;
+    border: 3px solid white;
+    margin: 100px auto;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
+    
+
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button{
+    margin: 0px 0px 20px 20px;
+    height: 70px;
+    width: 250px;
+    border: none;
+    background-color: aquamarine;
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 10px;
+    
+}
+
+button:hover{
+    background-color: rgb(11, 238, 162);
+    transform: scale(1.05);
+}

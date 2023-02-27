@@ -25,3 +25,6 @@ Day-8 : Counter  using HTML , CSS & Vanilla Javascipt . [Counter](https://jocula
 
 
 Day-9 : Quote Generator  using HTML , CSS & Vanilla Javascipt . [Quote Generator](https://stirring-banoffee-8d5df2.netlify.app/)
+
+
+Day-10 : Dynamic Model  using HTML , CSS & Vanilla Javascipt . [Dynamic Model](https://melodious-semifreddo-865dba.netlify.app/)

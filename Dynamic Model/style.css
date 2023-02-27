@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: url("./pexels-roberto-nickson-2775196.jpg") no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+#open-btn{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 2rem;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    font-weight: 600;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    box-shadow: 0 0 5px white;
+}
+
+#open-btn:hover{
+    background-color: #222222;
+}
+
+.model{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    animation-name:model;
+    animation-duration: .5s;
+}
+
+.close-btn{
+    font-size: 4rem;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+
+.close-btn:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.model-container{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0,.3);
+}
+
+@keyframes model{
+    from{
+        top: -300px;
+        opacity: 0;
+    }
+    to{
+        top: 50%;
+        opacity: 1;
+    }
+}

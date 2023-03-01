@@ -32,3 +32,6 @@ Day-10 : Dynamic Model  using HTML , CSS & Vanilla Javascipt . [Dynamic Model](h
 
 Day-11 : Dynamic FAQ  using HTML , CSS & Vanilla Javascipt . [Dynamic FAQ](https://poetic-alfajores-69c897.netlify.app/)
 
+
+Day-12 : Stop Watch  using HTML , CSS & Vanilla Javascipt . [Stop-Watch](https://verdant-cendol-438d3b.netlify.app/)
+

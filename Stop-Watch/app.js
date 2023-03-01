@@ -4,14 +4,17 @@ const startStopBtn = document.querySelector("#startstopbtn")
 const resetBtn = document.querySelector("#resetbtn")
 
 // variables for time value 
+let milliseconds = 0 
 let seconds = 0
 let minutes = 0
 let hours = 0
 
 // variables for leading zero
+
 let leadingSeconds = 0
 let leadingMinutes = 0
 let leadingHours = 0
+let leadingMilliseconds = 00
 
 //variables to setInterval and timeState 
 let timeInterval = null
@@ -19,7 +22,11 @@ let timeState = "stopped"
 
 // stop watch function
 function stopWatch(){
-    seconds++
+    milliseconds+=10
+    if(milliseconds / 1000 ===  1  ){
+        milliseconds = 0
+        seconds++
+    }
 
     if( seconds / 60 === 1){
         seconds = 0
@@ -29,6 +36,12 @@ function stopWatch(){
     if(minutes / 60 === 1 ){
         minutes = 0
         hours++
+    }
+
+    if(milliseconds < 10){
+        leadingMilliseconds = "00" + milliseconds.toString()
+    }else{
+        leadingMilliseconds =  milliseconds
     }
 
     if( seconds < 10 ){
@@ -48,13 +61,14 @@ function stopWatch(){
     }
 
     // display our function on screen
-    let display = document.getElementById("timer").innerHTML = leadingHours + ":" + leadingMinutes + ":" + leadingSeconds
+    let display = document.getElementById("timer").innerHTML = leadingHours +":"+ leadingMinutes +":"+ leadingSeconds +":"+ leadingMilliseconds
+    
 }
 
 startStopBtn.addEventListener("click" , function(){
 
     if(timeState === "stopped"){
-        timeInterval = window.setInterval(stopWatch , 1000)
+        timeInterval = window.setInterval(stopWatch , 10)
         document.getElementById("startstopbtn").innerHTML =
          `
          <i class="fa-solid fa-pause" id='pause'></i>

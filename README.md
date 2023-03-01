@@ -30,5 +30,5 @@ Day-9 : Quote Generator  using HTML , CSS & Vanilla Javascipt . [Quote Generator
 Day-10 : Dynamic Model  using HTML , CSS & Vanilla Javascipt . [Dynamic Model](https://melodious-semifreddo-865dba.netlify.app/)
 
 
-Day-11 : Dynamic FAQ  using HTML , CSS & Vanilla Javascipt . [Dynamic FAQ](https://dapper-piroshki-0ec8e9.netlify.app/)
+Day-11 : Dynamic FAQ  using HTML , CSS & Vanilla Javascipt . [Dynamic FAQ](https://poetic-alfajores-69c897.netlify.app/)
 

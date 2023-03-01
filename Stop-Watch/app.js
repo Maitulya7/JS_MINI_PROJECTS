@@ -62,7 +62,7 @@ function stopWatch(){
 
     // display our function on screen
     let display = document.getElementById("timer").innerHTML = leadingHours +":"+ leadingMinutes +":"+ leadingSeconds +":"+ leadingMilliseconds
-    
+
 }
 
 startStopBtn.addEventListener("click" , function(){
@@ -91,6 +91,7 @@ resetBtn.addEventListener("click", function(){
     seconds = 0
     minutes = 0
     hours = 0
+    milliseconds = 000
 
     document.getElementById("timer").innerHTML = "00:00:00"
 

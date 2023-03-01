@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(168, 144, 248);
+}
+
+.container{
+    background-color: white;
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgb(143, 143, 143);
+    
+}
+
+#timer{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 500;
+    
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 30px;
+}
+
+button{
+    margin: 0 20px;
+    border: none;   
+}
+
+
+
+
+button i{
+    font-size: 3.5rem;
+    padding: 20px;  
+    border-radius: 10px ;
+    color: white;
+    width: 100px;
+}
+
+#play{
+    background-color:rgb(10, 186, 10) ;
+}
+
+#pause{
+    background-color: orange;
+}
+
+#reset{
+    background-color:rgb(255, 63, 63) ;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        background-color: white;
+        width: 80%;
+        height: 200px;
+        padding: 20px;
+        border-radius: 30px;
+        box-shadow: 0 0 5px rgb(143, 143, 143);
+        
+    }
+
+    #timer{
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 500;
+        
+    }
+
+    button i{
+        font-size: 1.5rem;
+        padding: 20px;  
+        border-radius: 10px;
+        color: white;
+        width: 80px;
+    }
+   
+    
+  }
+
+
+  @media only screen and (min-width: 700px) {
+    .container{
+        background-color: white;
+        width: 60%;
+        height: 25%;
+        padding: 20px;
+        border-radius: 30px;
+        box-shadow: 0 0 5px rgb(143, 143, 143);
+        
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .container{
+        background-color: white;
+        width: 60%;
+        height: 45%;
+        padding: 20px;
+        border-radius: 30px;
+        box-shadow: 0 0 5px rgb(143, 143, 143);
+        
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .container{
+        background-color: white;
+        width: 60%;
+        height: 35%;
+        padding: 20px;
+        border-radius: 30px;
+        box-shadow: 0 0 5px rgb(143, 143, 143);
+        
+    }
+  }
+
+  
+  @media only screen and (min-width: 1600px) {
+    .container{
+        background-color: white;
+        width: 30%;
+        height: 30%;
+        padding: 20px;
+        border-radius: 30px;
+        box-shadow: 0 0 5px rgb(143, 143, 143);
+        
+    }
+  }

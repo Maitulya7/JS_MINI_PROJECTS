@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+   
+    background-color: #222222;
+    color: white;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .title{
+    margin-top: -200px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+.container .add-task-container{
+    margin-top: 20px;
+    width: 40%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width:85%;
+    height: 100%;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+#add-task{
+    color: white;
+    font-size: 1rem;
+    width: 10%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    transition: .3s;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#add-task:hover{
+    background-color: white;
+    color: green;
+    border: 3px solid green;
+    font-weight: bolder;
+}
+
+/* styling the task which will get added to the to-do-list  */
+
+#task-container{
+    width: 39%;
+    height: 5.5%;
+    margin-top: 20px;
+    color: black;
+}
+
+.task{
+    background-color: rgb(222, 222, 222);
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.task li{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 20px;
+    flex: 4;
+}
+
+.task button{
+    flex: .5;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.task .checkbutton{
+
+    color:orange;
+    font-weight: bold;
+    margin-right: 10px;
+    border: none;
+    font-size: 25px;
+    width: 52px;
+    height: 52px;
+    transition: .3s;
+}
+
+.task .detelebutton{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    width: 52px;
+    height: 52px;
+    transition: .3s;
+}
+
+.task .checkbutton:hover {
+    background-color: orange;
+    color: white;
+}
+.task .detelebutton:hover {
+    background-color: red;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container .title{
+        margin-top: -200px;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .container .add-task-container{
+        margin-top: 20px;
+        width: 85%;
+        height: 6%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #add-task{
+        color: white;
+        font-size: 1rem;
+        width: 15%;
+        height: 100%;
+        border: none;
+        border-radius: 10px;
+        background-color: green;
+        transition: .3s;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    #task-container{
+        width: 85%;
+        height: 5.5%;
+        margin-top: 20px;
+        color: black;
+    }
+    .task button{
+        flex: 2;
+        border-radius: 10px;
+        background-color: white;
+        cursor: pointer;
+    }
+  }

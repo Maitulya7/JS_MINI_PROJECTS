@@ -1,0 +1,119 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(197, 136, 255);
+}
+
+.wrapper{
+    width: 25em;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: .5em;
+}
+
+.wrapper header{
+    font-size: 2em;
+    text-align: center;
+    font-weight: 600;
+    color:rgb(197, 136, 255) ;
+}
+
+.wrapper form{
+    margin: 2.5em 0 2em 0;
+}
+
+form :where(input , select, button){
+    width: 100%;
+    outline: none;
+    border: none;
+    border: .5em;
+}
+
+form p{
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+form input{
+    height: 3em;
+    font-size: 1em;
+    border: 1px solid #222222;
+    padding: 0 1em;
+}
+
+form input:focus{
+    padding: 0 1em;
+    border: 2px solid rgb(197, 136, 255) ;
+}
+
+form .drop-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.drop-list .select-box{
+    display: flex;
+    height: 45px;
+    width: 115px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #222222;
+    border-radius: 5px;
+}
+
+.select-box select{
+    width: auto;
+    font-size: 16px;
+    margin: 0 -5px 0 5px;
+}
+.select-box select::-webkit-scrollbar{
+    width: 8px;
+}
+.select-box select::-webkit-scrollbar-track{
+    background: #fff;
+}
+.select-box select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 8px;
+    border-right: 2px solid white;
+}
+.select-box img{
+    max-width: 25px;
+}
+
+.drop-list .icon{
+    margin-top: 34px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+form .exchange-rate{
+    font-size: 17px;
+    margin: 30px 0 30px;
+    font-weight: bold;
+}
+
+form button{
+    height: 52px;
+    cursor: pointer;
+    color: white;
+    background-color:rgb(197, 136, 255) ;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: lowercase;
+
+}

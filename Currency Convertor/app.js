@@ -8,13 +8,6 @@ for(i = 0 ; i < dropList.length ; i++){
    
     for(currency_code in country_list){
 
-        let selected;
-        if(i == 0 ){
-            selected = currency_code == "INR" 
-        }else if (i == 1){
-            selected = currency_code == "USD" 
-        }
-
         //creating option tag  with passing currency code as a text and value 
         let optionTag = `<option value="${currency_code}">${currency_code}</option>`
         dropList[i].insertAdjacentHTML("beforeend", optionTag)

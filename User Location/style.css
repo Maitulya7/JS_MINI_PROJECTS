@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(199, 139, 255);
+}
+
+button{
+    font-size: 50px;
+    padding: 25px 46px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: rgb(178, 102, 250);
+    font-weight: 600;
+    box-shadow: 0 0 5px white;
+    cursor: pointer;
+}

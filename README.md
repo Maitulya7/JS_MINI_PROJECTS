@@ -47,3 +47,6 @@ Day-15 : Currency Convertor  using HTML , CSS & Vanilla Javascipt . [Currency-Co
 
 Day-16 : User Location   using HTML , CSS & Vanilla Javascipt . [User-Location](https://genuine-gecko-3a0348.netlify.app/)
 
+
+Day-17 : Language Translator   using HTML , CSS & Vanilla Javascipt . [Language-Translator](https://melodious-torte-4d3028.netlify.app/)
+

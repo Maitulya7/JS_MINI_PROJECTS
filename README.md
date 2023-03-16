@@ -44,3 +44,6 @@ Day-14 : Contray-Guide  using HTML , CSS & Vanilla Javascipt . [Contray-Guide](h
 
 Day-15 : Currency Convertor  using HTML , CSS & Vanilla Javascipt . [Currency-Convertor](https://creative-crostata-b3f2d4.netlify.app/)
 
+
+Day-16 : User Location   using HTML , CSS & Vanilla Javascipt . [User-Location](https://genuine-gecko-3a0348.netlify.app/)
+

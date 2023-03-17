@@ -85,6 +85,7 @@ startStopBtn.addEventListener("click" , function(){
     }
 })
 
+
 resetBtn.addEventListener("click", function(){
     window.clearInterval(timeInterval)
     seconds = 0

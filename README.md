@@ -50,3 +50,6 @@ Day-16 : User Location   using HTML , CSS & Vanilla Javascipt . [User-Location](
 
 Day-17 : Language Translator   using HTML , CSS & Vanilla Javascipt . [Language-Translator](https://melodious-torte-4d3028.netlify.app/)
 
+
+Day-18 : React Static Project-1   using React.js & vite.js  . [Project-1](https://deluxe-syrniki-f4f796.netlify.app/)
+
